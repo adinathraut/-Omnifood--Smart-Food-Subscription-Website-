@@ -1,4 +1,7 @@
 import React from "react";
+import appScreen1 from "../assets/img/app/app-screen-1.png";  // Import image
+import appScreen2 from "../assets/img/app/app-screen-2.png";  // Import image
+import appScreen3 from "../assets/img/app/app-screen-3.png";  // Import image
 
 function HowItWorksSection() {
   return (
@@ -21,11 +24,11 @@ function HowItWorksSection() {
           </p>
         </div>
         <div className="step-img-box">
-          <img src="img/app/app-screen-1.png" className="step-img" alt="App screen 1" />
+          <img src={appScreen1} className="step-img" alt="App screen 1" /> {/* Use imported image */}
         </div>
 
         <div className="step-img-box">
-          <img src="img/app/app-screen-2.png" className="step-img" alt="App screen 2" />
+          <img src={appScreen2} className="step-img" alt="App screen 2" /> {/* Use imported image */}
         </div>
         <div className="step-text-box">
           <p className="step-number">02</p>
@@ -43,7 +46,7 @@ function HowItWorksSection() {
           </p>
         </div>
         <div className="step-img-box">
-          <img src="img/app/app-screen-3.png" className="step-img" alt="App screen 3" />
+          <img src={appScreen3} className="step-img" alt="App screen 3" /> {/* Use imported image */}
         </div>
       </div>
     </section>
