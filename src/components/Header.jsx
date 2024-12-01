@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../assets/img/omnifood-logo.png"; // Import the logo image
+import "../styles/style.css";
 
 function Header() {
   // State to handle mobile navigation toggle
@@ -49,16 +50,17 @@ function Header() {
 
       {/* Mobile Navigation Button */}
       <button className="btn-mobile-nav" onClick={toggleNav}>
-        {/* Mobile Menu Icon */}
-        <ion-icon
-          name="menu-outline"
-          className="icon-mobile-nav"
-        ></ion-icon>
-        {/* Mobile Close Icon */}
-        <ion-icon
-          name="close-outline"
-          className="icon-mobile-nav"
-        ></ion-icon>
+        {isNavOpen ? (
+          <ion-icon
+            name="close-outline"
+            className="icon-mobile-nav"
+          ></ion-icon>
+        ) : (
+          <ion-icon
+            name="menu-outline"
+            className="icon-mobile-nav"
+          ></ion-icon>
+        )}
       </button>
     </header>
   );

@@ -3,7 +3,9 @@ import React from "react";
 function PricingSection() {
   return (
     <section className="section-pricing" id="pricing">
+
       <div className="container">
+        
         <span className="subheading">Pricing</span>
         <h2 className="heading-secondary">
           Eating well without breaking the bank
@@ -21,8 +23,8 @@ function PricingSection() {
           </header>
           <ul className="list">
             <li className="list-item">
-              <ion-icon className="list-icon" name="checkmark-outline"></ion-icon>
-              <span>1 meal per day</span>
+            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+            ><span><strong>2 meals</strong> per day</span>
             </li>
             <li className="list-item">
               <ion-icon className="list-icon" name="checkmark-outline"></ion-icon>
