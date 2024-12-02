@@ -594,6 +594,7 @@
   list-style: none;
   display: flex;
   gap: 2.4rem;
+  height: 2.5rem;
 }
 
 .social-icon {

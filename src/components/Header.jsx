@@ -48,20 +48,29 @@ function Header() {
         </ul>
       </nav>
 
-      {/* Mobile Navigation Button */}
       <button className="btn-mobile-nav" onClick={toggleNav}>
-        {isNavOpen ? (
-          <ion-icon
-            name="close-outline"
-            className="icon-mobile-nav"
-          ></ion-icon>
-        ) : (
-          <ion-icon
-            name="menu-outline"
-            className="icon-mobile-nav"
-          ></ion-icon>
-        )}
-      </button>
+  {isNavOpen ? (
+    <ion-icon
+      name="close-outline"
+      class="icon-mobile-nav"
+      style={{ height: "4.8rem",
+        width: "4.8rem",
+        color:" #333;" }}
+    ></ion-icon>
+  ) : (
+    <ion-icon
+      name="menu-outline"
+      class="icon-mobile-nav"
+      style={{ height: "4.8rem",
+        width: "4.8rem",
+        color:" #333;" }}
+    ></ion-icon>
+  )}
+</button>
+
+      
+
+      
     </header>
   );
 }
