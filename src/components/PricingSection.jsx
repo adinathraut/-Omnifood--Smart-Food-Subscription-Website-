@@ -87,40 +87,41 @@ function PricingSection() {
           plans include the following:
         </aside>
       </div>
-      <div className="container grid grid--4--cols">
-        {/* Plan features */}
-        <div className="feature">
-          <ion-icon className="feature-icon" name="infinite-outline"></ion-icon>
-          <p className="feature-title">Never cook again</p>
-          <p className="feature-text">
-            Our subscriptions cover 365 days per year, even including major
-            holidays.
-          </p>
+
+      <div class="container grid grid--4--cols">
+          <div class="feature">
+            <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
+            <p class="feature-title">Never cook again</p>
+            <p class="feature-text">
+              Our subscriptions cover 365 days per year, even including major
+              holidays.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
+            <p class="feature-title">Local and organic</p>
+            <p class="feature-text">
+              Our cooks only use local, fresh, and organic products to prepare
+              your meals.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
+            <p class="feature-title">No waste</p>
+            <p class="feature-text">
+              All our partners only use reusable containers to package all your
+              meals.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="pause-outline"></ion-icon>
+            <p class="feature-title">Pause anytime</p>
+            <p class="feature-text">
+              Going on vacation? Just pause your subscription, and we refund
+              unused days.
+            </p>
+          </div>
         </div>
-        <div className="feature">
-          <ion-icon className="feature-icon" name="nutrition-outline"></ion-icon>
-          <p className="feature-title">Local and organic</p>
-          <p className="feature-text">
-            Our chefs only use local, fresh, and organic products to prepare
-            your meals.
-          </p>
-        </div>
-        <div className="feature">
-          <ion-icon className="feature-icon" name="leaf-outline"></ion-icon>
-          <p className="feature-title">No waste</p>
-          <p className="feature-text">
-            All our partners only use reusable containers to package your meals.
-          </p>
-        </div>
-        <div className="feature">
-          <ion-icon className="feature-icon" name="pause-outline"></ion-icon>
-          <p className="feature-title">Pause anytime</p>
-          <p className="feature-text">
-            Going on vacation? Pause your subscription, and we refund unused
-            days.
-          </p>
-        </div>
-      </div>
     </section>
   );
 }
