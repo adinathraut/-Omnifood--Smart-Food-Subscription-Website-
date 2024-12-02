@@ -12,14 +12,14 @@ Key highlights include a responsive navigation bar with a mobile-friendly hambur
 
 The Omnifood website has been tested using Google's Lighthouse tool to ensure optimal performance, accessibility, and SEO. Below are the scores:
 
-- **Performance**: 95  
+- **Performance**: 88  
 - **Accessibility**: 96  
 - **Best Practices**: 100  
 - **SEO**: 100  
 
 ### Screenshot of Lighthouse Report:
 
-![Lighthouse Report](img/lighthouse-report.png)
+![Lighthouse Report](src/assets/img/lighthouse-report.png)
 
 ## ✨ Features
 
@@ -79,5 +79,5 @@ Currently, two official plugins are available:
 
 ## Screenshot of Outputs:
 
-![PC](img/pc.png)
-![Mobile](img/mobile.png)
+![PC](src/assets/img/1.png)
+![Mobile](src/assets/img/2.png)
